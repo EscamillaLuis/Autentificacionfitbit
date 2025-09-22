@@ -4,7 +4,7 @@
 Esta utilidad crea una pequeña interfaz en Tkinter junto a un servidor Flask para completar únicamente la autenticación OAuth 2.0 de Fitbit. Tras autorizar, genera y actualiza los archivos `credentials.json` y `fitbit_tokens.json` con el formato solicitado, asociando cada par de `client_id` y `client_secret` con los tokens que devuelve Fitbit.
 
 ## Prerrequisitos
-1. Contar con Python 3.8 o superior.
+1. Contar con Python 3.10.11.
 2. Crear una aplicación en el panel de desarrolladores de Fitbit.
 3. Registrar la URL de redirección `http://localhost:5000/callback` en la configuración de la aplicación.
 
